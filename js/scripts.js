@@ -47,3 +47,8 @@ document.querySelector('#facebook').addEventListener('click', (event) => {
     event.preventDefault();
     window.open('https://www.facebook.com/profile.php?id=100009585947523&mibextid=b06tZ0')
 });
+
+document.querySelector('#gitProject').addEventListener('click', (event) => {
+    event.preventDefault();
+    window.open('https://github.com/minhquan490/Order-Shop');
+});
